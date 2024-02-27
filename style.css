@@ -1,0 +1,70 @@
+:root{
+    --TopBarColor: rgb(24,24,24);
+    --ContenerColor: rgb(54, 19, 92);
+    --FooterColor: rgb(20,20,20);
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+}
+
+.TopBar{
+    background-color: var(--TopBarColor);
+    height: 5%; 
+    padding: 20px 20px 30px;
+
+    color: antiquewhite;
+}
+
+.Contener{
+    background-color: var(--ContenerColor);
+    height: 85%;
+    border-left: 5px solid rgb(22,22,22);
+    border-right: 5px solid rgb(22,22,22);
+}
+
+.Pallet{
+    border-radius: 50px;
+    height: 15%;
+    width: 1.5%;
+    background-color: rgb(128, 128, 128, 0.5);
+
+    position: absolute;
+    top: 15%;
+    right: 20px;
+
+    border: solid 2px rgb(148, 148, 148, 0.5);
+
+    transition-duration: 0.4s;
+
+}
+
+.Pallet:hover{
+    /* transform: scale(1.2); */
+    height: 22%;
+    width: 2.2%;
+    padding: 5px;
+    top: 16%;
+    transition-duration: 0.6s;
+}
+
+#Add{
+    transition-duration: 0.3s;
+}
+
+#Add:hover{
+    transition-duration: 0.3s;
+    transform: rotate(30deg);
+}
+
+#Add:active{
+    transition-duration: 0.1s;
+    transform: scale(0.8) rotate(30deg);
+}
+
+.Footer{
+    background-color: var(--FooterColor);
+
+    height: 10%;
+}
