@@ -18,6 +18,7 @@ body{
 }
 
 .Contener{
+    padding: 10px;
     background-color: var(--ContenerColor);
     height: 85%;
     border-left: 5px solid rgb(22,22,22);
@@ -67,4 +68,37 @@ body{
     background-color: var(--FooterColor);
 
     height: 10%;
+}
+
+/*  */
+#Test{
+    margin-left: 20px;
+    padding: 20px;
+    width: min-content;
+    background-color: rgb(31, 31, 126);
+    color: white;
+    font-size: 15px;
+    font-weight: lighter;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#Test input[type="button"] {
+    align-self: center; /* Wyśrodkowanie w osi poziomej */
+}
+
+#Test div{
+    display: flex;
+    flex-direction: row;
+    padding: 5px 0px 0px;
+}
+
+#Test div input{
+    margin: 10px;
+    border-radius: 5px;
 }
